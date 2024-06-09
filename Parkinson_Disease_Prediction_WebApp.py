@@ -10,9 +10,9 @@ import pickle
 import streamlit as st
 
 #loading. the saved model
-model = pickle.load(open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-14-Parkinson's Disease Detection/parkinsons_disease_trained_model.sav",'rb'))
+model = pickle.load(open("parkinsons_disease_trained_model.sav",'rb'))
 
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-14-Parkinson's Disease Detection/scaler.pkl", 'rb') as f:
+with open("scaler.pkl", 'rb') as f:
     scaler = pickle.load(f)
     
 def parkinson_disease_prediction(input_data):
