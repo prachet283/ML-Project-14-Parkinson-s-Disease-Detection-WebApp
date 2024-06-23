@@ -11,21 +11,21 @@ import streamlit as st
 import pandas as pd
 
 #loading. the saved model
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-14-Parkinson's Disease Detection/columns.pkl", 'rb') as f:
+with open("columns.pkl", 'rb') as f:
     all_features = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-14-Parkinson's Disease Detection/scaler.pkl", 'rb') as f:
+with open("scaler.pkl", 'rb') as f:
     scalers = pickle.load(f)
-with open("C:/Users\prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-14-Parkinson's Disease Detection/best_features_knn.json", 'r') as file:
+with open("best_features_knn.json", 'r') as file:
     best_features_knn = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-14-Parkinson's Disease Detection/best_features_xgb.json", 'r') as file:
+with open("best_features_xgb.json", 'r') as file:
     best_features_xgb = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-14-Parkinson's Disease Detection/best_features_rfc.json", 'r') as file:
+with open("best_features_rfc.json", 'r') as file:
     best_features_rfc = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-14-Parkinson's Disease Detection/parkinsons_disease_trained_knn_model.sav", 'rb') as f:
+with open("parkinsons_disease_trained_knn_model.sav", 'rb') as f:
     loaded_model_knn = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-14-Parkinson's Disease Detection/parkinsons_disease_trained_xgb_model.sav", 'rb') as f:
+with open("parkinsons_disease_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-14-Parkinson's Disease Detection/parkinsons_disease_trained_rfc_model.sav", 'rb') as f:
+with open("parkinsons_disease_trained_rfc_model.sav", 'rb') as f:
     loaded_model_rfc = pickle.load(f)
 
     
