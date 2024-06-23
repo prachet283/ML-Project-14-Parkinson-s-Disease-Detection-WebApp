@@ -23,10 +23,10 @@ with open("best_features_rfc.json", 'r') as file:
     best_features_rfc = json.load(file)
 with open("parkinsons_disease_trained_knn_model.sav", 'rb') as f:
     loaded_model_knn = pickle.load(f)
-with open("parkinsons_disease_trained_xgb_model.sav", 'rb') as f:
-    loaded_model_xgb = pickle.load(f)
-with open("parkinsons_disease_trained_rfc_model.sav", 'rb') as f:
-    loaded_model_rfc = pickle.load(f)
+with open("parkinsons_disease_trained_xgb_model.sav", 'rb') as f1:
+    loaded_model_xgb = pickle.load(f1)
+with open("parkinsons_disease_trained_rfc_model.sav", 'rb') as f2:
+    loaded_model_rfc = pickle.load(f2)
 
     
 def parkinson_disease_prediction(input_data):
