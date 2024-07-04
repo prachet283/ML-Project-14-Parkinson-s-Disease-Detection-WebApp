@@ -32,7 +32,11 @@ The Support Vector model is used to detect the Parkinson based on the provided p
 The model achieves an accuracy of approximately 87.17% on the test set.
 
 # Deployment
-The application is deployed using Streamlit. You can access it here = https://ml-project-14-parkinson-s-disease-detection-webapp-vtkrzwo7wi7.streamlit.app/
+The application is deployed using Streamlit. 
+
+You can access it here = https://ml-project-14-parkinson-s-disease-detection-webapp-vtkrzwo7wi7.streamlit.app/
+
+Updated one : https://ml-project-14-parkinson-s-disease-detection-webapp-fldu7pcb9ht.streamlit.app/
 
 # Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
